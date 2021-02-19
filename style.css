@@ -1,0 +1,31 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /* quita los bullets points de la lista*/
+    padding-left: 0; /* hace que el contenido se pegue a la izquierda*/
+    background-color: #105050;
+}
+  .main-nav__item {
+    display: inline-block; /*pone el menu de navegación en una sola línea*/
+    margin: 10px;
+  }
+  .main-nav__item a {
+    color: rgb(248, 243, 231);
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 30px;
+  }
+  
+
+
+  .main-nav__item a:hover {
+    color: rgb(255, 136, 0);
+  }
+  .main-nav__item a:active {
+    color: red;
+  }
+  
+  .main-nav__item a::after {
+    content: " | ";
+  }
