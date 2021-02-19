@@ -6,7 +6,7 @@
 
 main {
   width: 100%; /*del pixelado tomará el 100% **/
-  height: 500px;
+  height: max-content;
   border: 10px solid grey;
   padding: 20px 35px; /* el padin es el margen interno de la caja **/
 }
@@ -45,10 +45,19 @@ main {
     font-size: 45px;
   }
   .formato_p{
-      font-style: italic;
-      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 130%;
       color: rgb(31, 15, 15);
-      width: 50%;
+  }
+
+  .formato_p a{
+    width: 50;
+    padding: 0;
+  }
+
+  .ima{
+    width: 10;
+    height: 10;
   }
 
   .main-nav__item a:hover {
