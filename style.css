@@ -1,67 +1,68 @@
-* {
-  box-sizing: border-box; /*lo que hace es al tamaño del width restarle el tamaño del margen y del border de manera automática para que se ajuste el contenido a la pantalla**/
-  padding: 0;
-  margin: 0;
-}
-
-main {
-  width: 100%; /*del pixelado tomará el 100% **/
-  height: max-content;
-  border: 10px solid grey;
-  padding: 20px 35px; /* el padin es el margen interno de la caja **/
-}
-
-.document{
-    background-color: rgb(224, 236, 240);
-}
-
-.main-nav {
-    margin-top: 10px;
-    list-style: none; /* quita los bullets points de la lista*/
-    padding-left: 0; /* hace que el contenido se pegue a la izquierda*/
-    background-color: #1a8f4b;
-}
-  .main-nav__item {
-    display: inline-block; /*pone el menu de navegación en una sola línea*/
-    margin: 10px;
-  }
-  .main-nav__item a {
-    color: rgb(248, 243, 231);
-    padding: 10px;
-    border-radius: 2px;
-    text-decoration: none;
-    font-family: Calibri;
-    font-size: 30px;
-  }
-  
-  /* .heade{
-    background-image: image("FondoLinkIn.jpg");
-  } */
-
-  .titulo{
-    color: rgb(128, 39, 12);
-    padding: 20px;
-    padding-left: 0;
-    font-size: 45px;
-  }
-  .formato_p{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 130%;
-      color: rgb(31, 15, 15);
-  }
-
-  .formato_p a{
-    width: 50;
+*{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-  }
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    /* background-color: #077c38; */
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 5vh; */
+    /* width: 100vw; */
+}
+.navigator{
+    background-color: #077c38;
+    border-style: groove;
+    border-width: 1px;
+    border-bottom: 0px;
+    border-color: black;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lista{
+    padding: 10px;
+    color: antiquewhite;
+}
 
-  .main-nav__item a:hover {
-    color: rgb(255, 136, 0);
-  }
-  .main-nav__item a:active {
-    color: red;
-  }
-  
-  .main-nav__item a::after {
-    content: " | ";
-  }
+
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion{
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+.imagen{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pie-pagina{
+    background-color: #077c38;
+    border-style: groove;
+    border-width: 1px;
+    border-top: 0px;
+    border-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    text-align: center;
+    padding: 18px;
+    font-size: 2.4rem;
+}
