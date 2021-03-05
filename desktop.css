@@ -1,0 +1,24 @@
+.header{
+    width: 70%;
+    min-width: 600px;
+}
+
+.container{
+    height: 88%;
+    min-height: 88vh;
+    width: 70%;
+    min-width: 600px;
+}
+
+.comodin{
+    width: 70%;
+    margin: 0 auto;
+    height: 10rem;
+    min-height: 0;
+    flex-grow: 1;
+}
+
+.pie-pagina{
+    width: 70%;
+    min-width: 600px;
+}
