@@ -6,7 +6,6 @@
     --paragraph-font-size: 1.6rem;
     --paragraph-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -49,48 +48,21 @@ html{
     color: antiquewhite;
 }
 
-.container{
-    border: 1px solid black;
+
+
+.contenedor{
     background-color: var(--colorMain);
-
-    position: relative;
-
-    width: 70%;
-    min-width: 411px;
-    margin: 0 auto;
-
     display: flex;
     flex-direction: column;
+    font-size: 1.6rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.presentacion{
-    padding: 2rem;
-    font-size: var(--paragraph-font-size);
-    font-family: var(--paragraph-font-family);
-    text-align: justify;
-
+.contenedor p{
+    padding: 0.6rem;
 }
 
-.imagen{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.img{
-    height: 300px;
-    min-height: 300px;
-    width: 210px;
-    min-width: 210;
-}
-
-.presentacion1{
-    padding: 2rem;
-    font-size: var(--paragraph-font-size);
-    font-family: var(--paragraph-font-family);
-    text-align: justify;
-}
 
 .pie-pagina{
     padding: 18px;

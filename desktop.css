@@ -1,24 +1,46 @@
 .header{
     width: 70%;
-    min-width: 600px;
+    min-width: 900px;
 }
 
 .container{
-    height: 88%;
-    min-height: 88vh;
+    height: 87%;
+    min-height: 87vh;
+
     width: 70%;
-    min-width: 600px;
+    min-width: 900px;
+    
 }
 
-.comodin{
-    width: 70%;
-    margin: 0 auto;
-    height: 10rem;
-    min-height: 0;
-    flex-grow: 1;
+.presentacion{
+    margin-top: 2rem;
+    padding-bottom: 0.4rem;
+    width: 100%;
+    height: 30%;
+    /* align-items: center; */
+}
+
+.contenedor1{
+    display: flex;
+    align-items: flex-start;
+}
+.imagen{
+
+    justify-content: left;
+    margin: 3rem;
+}
+.img{
+    height: 500px;
+    min-height: 500px;
+    width: 375px;
+    min-width: 375px;
+}
+.presentacion1{
+    margin-top: 1rem;
+    width: 60%;
 }
 
 .pie-pagina{
     width: 70%;
-    min-width: 600px;
+    min-width: 900px;
 }
