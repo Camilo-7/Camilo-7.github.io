@@ -9,6 +9,7 @@
     --width-contenedores: 70%;
     --minwidth-contenedores: 35rem;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -51,49 +52,26 @@ html{
     color: antiquewhite;
 }
 
-
-
-.contenedor{
+.container{
+    border: 1px solid black;
     background-color: var(--colorMain);
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
+
+    position: relative;
 
     width: var(--width-contenedores);
     min-width: var(--minwidth-contenedores);
-
     margin: 0 auto;
 
-    border-style: groove;
-    border-width: 1px;
-    border-top: 0px;
-    border-color: black;
-}
-
-.contenedor p{
-    padding: 1rem;
-}
-
-.C1, .C2, .C3, .C4, .C5, .C6, .C7, .C8, .C9, .C10, .C11, .C12{
-    height: 40rem;
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} 
-
-
-.imgC1, .imgC2, .imgC3, .imgC4, .imgC5, .imgC6, .imgC7, .imgC8,
- .imgC9, .imgC10, .imgC11, .imgC12{
-    height: 300px;
-    min-height: 300px;
-    width: 300px;
-    min-width: 300;
+    flex-direction: column;
 }
 
-
-
-
+.container p{
+    padding: 2rem;
+    font-size: var(--paragraph-font-size);
+    font-family: var(--paragraph-font-family);
+    text-align: justify;
+}
 
 .pie-pagina{
     padding: 18px;
@@ -104,7 +82,6 @@ html{
 
     width: var(--width-contenedores);
     min-width: var(--minwidth-contenedores);
-
     margin: 0 auto;
     min-height: 30px;
 
