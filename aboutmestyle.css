@@ -55,8 +55,7 @@ html{
 
 .contenedor{
     background-color: var(--colorMain);
-    display: flex;
-    flex-direction: column;
+
     font-size: 1.6rem;
 
     width: var(--width-contenedores);
@@ -72,23 +71,21 @@ html{
 
 .contenedor p{
     padding: 0.5rem;
+    max-width: 300px;
 }
 
 .C1, .C2, .C3, .C4, .C5, .C6, .C7, .C8, .C9, .C10, .C11, .C12{
-    height: 40rem;
-    min-height: 40rem;
+    /* height: 42rem; 
+    min-height: 40rem; */   /*de esta manera no se genera overflow sino que el contenedor toma la distancia de el parrafo mas la foto*/
     width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    /* padding: 1.5rem; */
+    padding-left: 1.5rem;
+    padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: center;
 } 
-
-.C1, .C2, .C3, .C4, .C5, .C6, .C7, .C8, .C9, .C10, .C11, .C12 p{
-    padding: 1rem;
-}
 
 .F1, .F2, .F3, .F4, .F5, .F6, .F7, .F8, .F9, .F10, .F11, .F12 figcaption{
     font-size: 1.2rem;
@@ -102,10 +99,6 @@ html{
     width: 300px;
     min-width: 300;
 }
-
-
-
-
 
 .pie-pagina{
     padding: 18px;
