@@ -1,11 +1,18 @@
 :root{
-    --colorHead-foot: #077c38;
-    --colorhtml: rgb(219, 215, 215);
-    --colorMain: bisque;
+    --colorHead-foot: #3F67F0;
+    --colorhtml: #F5F0E6;
+    --colorMain: #DFDAD1;
+
+    --color-font-headers: #8DF018;
+    --color-font-footer: #58A300;
+    
+    --color-font-hover: #A32908;
+    --color-font-active: #F03300;
+
     --header-font-size: 1.6rem;
     --paragraph-font-size: 1.6rem;
-    --paragraph-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    --paragraph-font-family: 'Roboto Mono', monospace;
+    
     --width-contenedores: 70%;
     --minwidth-contenedores: 35rem;
 }
@@ -21,7 +28,7 @@ html{
 }
 .header{
     font-size: var( --header-font-size);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--paragraph-font-family);
 
     width: var(--width-contenedores);
     min-width: var(--minwidth-contenedores);
@@ -49,7 +56,7 @@ html{
 }
 
 .lista a{
-    color: antiquewhite;
+    color: var(--color-font-headers);
 }
 
 .container{
@@ -99,8 +106,8 @@ html{
     padding: 18px;
     font-size: 2.4rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--colorMain);
+    font-family: var(--paragraph-font-family);
+    color: var(--color-font-footer);
 
     width: var(--width-contenedores);
     min-width: var(--minwidth-contenedores);
@@ -115,11 +122,11 @@ html{
 }
 
 .lista a:hover{
-    color: blue;
+    color: var(--color-font-hover);
 }
 
 .lista a:active{
-    color: orangered;
+    color: var(--color-font-active);
 }
 
 .lista a::after{
