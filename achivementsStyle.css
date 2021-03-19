@@ -60,48 +60,10 @@ html{
     color: var(--color-font-headers);
 }
 
-.container{
-    border: 1px solid black;
-    background-color: var(--colorMain);
 
-    position: relative;
 
-    width: var(--width-contenedores);
-    min-width: var(--minwidth-contenedores);
-    margin: 0 auto;
 
-    display: flex;
-    flex-direction: column;
-}
 
-.presentacion{
-    padding: 2rem;
-    font-size: var(--paragraph-font-size);
-    font-family: var(--paragraph-font-family);
-    text-align: justify;
-
-}
-
-.imagen{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-.img{
-    height: 300px;
-    min-height: 300px;
-    width: 220px;
-    min-width: 220;
-}
-
-.presentacion1{
-    padding: 2rem;
-    font-size: var(--paragraph-font-size);
-    font-family: var(--paragraph-font-family);
-    text-align: justify;
-}
 
 .pie-pagina{
     padding: 18px;
