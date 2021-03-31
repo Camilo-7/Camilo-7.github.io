@@ -61,8 +61,28 @@ html{
 }
 
 
+.container{
+    border: 1px solid black;
+    background-color: var(--colorMain);
 
+    padding: 2rem;
+    padding-left: 4rem;
 
+    width: var(--width-contenedores);
+    min-width: var(--minwidth-contenedores);
+    margin: 0 auto;
+    font-family: var(--paragraph-font-family);
+}
+
+.container ul{
+    padding-top: 0.5rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+
+.container li{
+    padding: 1rem;
+}
 
 
 .pie-pagina{
