@@ -1,0 +1,36 @@
+.header{
+    width: 70%;
+    min-width: 1020px;
+}
+
+.container{
+    padding: 4rem;
+    padding-left: 4rem;
+
+    height: 80%;
+    min-height: 80vh;
+
+    width: 70%;
+    min-width: 1020px;
+
+}
+
+.C2, .C3, .C4, .C5, .C6, .C7{
+    max-width: none;
+    display: flex;
+
+}
+
+.C2 div, .C3 div, .C4 div, .C5 div, .C6 div, .C7 div{
+    width: 70rem;
+}
+
+
+
+
+
+
+.pie-pagina{
+    width: 70%;
+    min-width: 1020px;
+}
